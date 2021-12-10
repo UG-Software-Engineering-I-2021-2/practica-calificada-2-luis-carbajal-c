@@ -1,17 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-09T19:28:20 COT" name="cs.ing.MainTest" finished-at="2021-12-09T19:28:20 COT" duration-ms="158">
+  <suite started-at="2021-12-09T21:19:57 COT" name="cs.ing.PrincipalTest" finished-at="2021-12-09T21:19:57 COT" duration-ms="150">
     <groups>
     </groups>
-    <test started-at="2021-12-09T19:28:20 COT" name="Command line test" finished-at="2021-12-09T19:28:20 COT" duration-ms="158">
-      <class name="cs.ing.MainTest">
-        <test-method signature="TestMain()[pri:0, instance:cs.ing.MainTest@78fa769e]" started-at="2021-12-09T19:28:20 COT" name="TestMain" finished-at="2021-12-09T19:28:20 COT" duration-ms="84" status="PASS">
+    <test started-at="2021-12-09T21:19:57 COT" name="Command line test" finished-at="2021-12-09T21:19:57 COT" duration-ms="150">
+      <class name="cs.ing.PrincipalTest">
+        <test-method signature="calculate_average_grade_given_different_exam_grades_and_attending_the_minimum_classes()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="calculate_average_grade_given_different_exam_grades_and_attending_the_minimum_classes" finished-at="2021-12-09T21:19:57 COT" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestMain -->
-      </class> <!-- cs.ing.MainTest -->
+        </test-method> <!-- calculate_average_grade_given_different_exam_grades_and_attending_the_minimum_classes -->
+        <test-method signature="calculate_same_grade_given_one_single_exam_and_attending_the_minimum_classes()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="calculate_same_grade_given_one_single_exam_and_attending_the_minimum_classes" finished-at="2021-12-09T21:19:57 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculate_same_grade_given_one_single_exam_and_attending_the_minimum_classes -->
+        <test-method signature="fail_given_different_exam_grades_but_not_attending_the_minimum_classes()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="fail_given_different_exam_grades_but_not_attending_the_minimum_classes" finished-at="2021-12-09T21:19:57 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail_given_different_exam_grades_but_not_attending_the_minimum_classes -->
+        <test-method signature="fail_given_odd_exam_grades_but_attending_the_minimum_classes()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="fail_given_odd_exam_grades_but_attending_the_minimum_classes" finished-at="2021-12-09T21:19:57 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail_given_odd_exam_grades_but_attending_the_minimum_classes -->
+        <test-method signature="fail_given_one_single_exam_but_not_attending_the_minimum_classes()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="fail_given_one_single_exam_but_not_attending_the_minimum_classes" finished-at="2021-12-09T21:19:57 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail_given_one_single_exam_but_not_attending_the_minimum_classes -->
+        <test-method signature="fail_given_there_are_no_exams()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="fail_given_there_are_no_exams" finished-at="2021-12-09T21:19:57 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail_given_there_are_no_exams -->
+        <test-method signature="fail_when_there_are_no_exams_and_has_not_attended_the_minimum_classes()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="fail_when_there_are_no_exams_and_has_not_attended_the_minimum_classes" finished-at="2021-12-09T21:19:57 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail_when_there_are_no_exams_and_has_not_attended_the_minimum_classes -->
+        <test-method signature="increase_one_extra_point_if_there_is_any_benevolent_teacher_in_the_year_to_calculate_grades()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="increase_one_extra_point_if_there_is_any_benevolent_teacher_in_the_year_to_calculate_grades" finished-at="2021-12-09T21:19:57 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increase_one_extra_point_if_there_is_any_benevolent_teacher_in_the_year_to_calculate_grades -->
+        <test-method signature="maintain_10_as_the_maximum_grade_even_if_increasing_one_extra_point()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="maintain_10_as_the_maximum_grade_even_if_increasing_one_extra_point" finished-at="2021-12-09T21:19:57 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maintain_10_as_the_maximum_grade_even_if_increasing_one_extra_point -->
+        <test-method signature="not_increase_one_extra_point_if_there_is_not_any_benevolent_teacher_in_the_year_to_calculate_grades()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="not_increase_one_extra_point_if_there_is_not_any_benevolent_teacher_in_the_year_to_calculate_grades" finished-at="2021-12-09T21:19:57 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- not_increase_one_extra_point_if_there_is_not_any_benevolent_teacher_in_the_year_to_calculate_grades -->
+        <test-method signature="round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes" finished-at="2021-12-09T21:19:57 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes -->
+        <test-method signature="validate_all_exam_grades_weight_below_100()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="validate_all_exam_grades_weight_below_100" finished-at="2021-12-09T21:19:57 COT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_all_exam_grades_weight_below_100 -->
+        <test-method signature="validate_all_exam_grades_weight_over_100()[pri:0, instance:cs.ing.PrincipalTest@389b0789]" started-at="2021-12-09T21:19:57 COT" name="validate_all_exam_grades_weight_over_100" finished-at="2021-12-09T21:19:57 COT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_all_exam_grades_weight_over_100 -->
+      </class> <!-- cs.ing.PrincipalTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- cs.ing.MainTest -->
+  </suite> <!-- cs.ing.PrincipalTest -->
 </testng-results>

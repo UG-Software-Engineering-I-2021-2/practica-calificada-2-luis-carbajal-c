@@ -1,2 +1,7 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+practica-calificada-2-luis-carbajal-c,cs.ing.custom_exceptions,CustomRuntimeException,4,0,0,0,2,0,1,0,1,0
+practica-calificada-2-luis-carbajal-c,cs.ing,Pair,0,15,0,0,0,1,0,3,0,3
+practica-calificada-2-luis-carbajal-c,cs.ing,Teacher,24,18,4,0,5,7,4,1,1,1
 practica-calificada-2-luis-carbajal-c,cs.ing,Main,0,12,0,0,0,4,0,3,0,3
+practica-calificada-2-luis-carbajal-c,cs.ing,Principal,4,201,0,20,2,41,1,12,1,2
+practica-calificada-2-luis-carbajal-c,cs.ing,Student,34,0,4,0,10,0,5,0,2,0

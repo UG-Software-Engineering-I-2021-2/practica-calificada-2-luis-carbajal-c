@@ -1,19 +1,4 @@
 package cs.ing;
 
-public final class Pair<FirstType, SecondType> {
-    final private FirstType first;
-    final private SecondType second;
+record Pair<F, S> (F first, S second) {}
 
-    public Pair(FirstType first, SecondType second) {
-        this.first  = first;
-        this.second = second;
-    }
-
-    public FirstType first() {
-        return first;
-    }
-
-    public SecondType second() {
-        return second;
-    }
-}

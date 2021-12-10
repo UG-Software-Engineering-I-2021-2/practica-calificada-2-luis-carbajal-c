@@ -1,27 +1,26 @@
 package cs.ing;
 
+import cs.ing.custom_exceptions.CustomRuntimeException;
+
 public class Student {
-    private String _Nombre;
-    private int _Tipo;
-    private int _notaBase =11;
-    static final int Pregado = 0;
-    static final int Maestria = 1;
-    static final int Doctorado = 2;
+    private String nombre;
+    private int tipo;
+    private int notaBase = 11;
+    static final int PREGADO = 0;
+    static final int MAESTRIA = 1;
+    static final int DOCTORADO = 2;
 
     Student(int type, String nombre) {
-        _Tipo = type;
-        _Nombre = nombre;
+        tipo = type;
+        this.nombre = nombre;
     }
-    int Grado() {
-        switch (_Tipo) {
-            case Pregado:
-                return _notaBase;
-            case Maestria:
-                return _notaBase + 1;
-            case Doctorado:
-                return _notaBase + 2;
-            default:
-                throw new RuntimeException("Empleado incorrecto");
-        }
+
+    int grado() {
+        return switch (tipo) {
+            case PREGADO -> notaBase;
+            case MAESTRIA -> notaBase + 1;
+            case DOCTORADO -> notaBase + 2;
+            default -> throw new CustomRuntimeException("Empleado incorrecto");
+        };
     }
 }

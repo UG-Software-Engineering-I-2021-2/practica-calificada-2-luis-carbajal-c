@@ -28,6 +28,7 @@ public class Principal {
     public Principal(int yearToCalculate) {
         this.yearToCalculate = yearToCalculate;
     }
+
     public float calculateGrades(final List<Pair<Integer, Float>> examsStudents, final boolean hasReachedMinimumClasses) {
         if (!examsStudents.isEmpty()) {
             boolean hasToIncreaseOneExtraPoint = false;
@@ -71,6 +72,7 @@ public class Principal {
             return 0f;
         }
     }
+
     public static void main(String[] args) {
         System.out.println("Hola");
     }
