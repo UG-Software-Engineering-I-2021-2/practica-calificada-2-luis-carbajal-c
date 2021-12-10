@@ -5,12 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>code</artifactId>
+    <artifactId>practica-calificada-2-luis-carbajal-c</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
         <maven.compiler.target>16</maven.compiler.target>
+        <sonar.projectKey>UG-Software-Engineering-I-2021-2_practica-calificada-2-luis-carbajal-c</sonar.projectKey>
+        <sonar.organization>ug-software-engineering-i-2021-2</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencies>
