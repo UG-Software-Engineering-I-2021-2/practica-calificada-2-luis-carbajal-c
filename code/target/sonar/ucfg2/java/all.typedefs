@@ -65,9 +65,9 @@ getCause()3java.lang.Throwable#getCause()Ljava/lang/Throwable;e
 <init>(Ljava/lang/String;)Kcs.ing.custom_exceptions.CustomRuntimeException#<init>(Ljava/lang/String;)V”
 cs.ing.Teacherjava.lang.ObjectJ
 <init>(ILjava/lang/String;)+cs.ing.Teacher#<init>(ILjava/lang/String;)V$
-sueldo()cs.ing.Teacher#sueldo()Iô
-cs.ing.Principaljava.lang.ObjectH
-main([Ljava/lang/String;)+cs.ing.Principal#main([Ljava/lang/String;)V(
+sueldo()cs.ing.Teacher#sueldo()Iú
+cs.ing.Principaljava.lang.ObjectN
+checkIncreaseOneExtraPoint().cs.ing.Principal#checkIncreaseOneExtraPoint()Z(
 	<init>(I)cs.ing.Principal#<init>(I)VZ
 "calculateGrades(Ljava/util/List;Z)4cs.ing.Principal#calculateGrades(Ljava/util/List;Z)FÖ
 java.lang.Iterablejava.lang.Objectd
@@ -95,38 +95,7 @@ pof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljav
 (of(Ljava/lang/Object;Ljava/lang/Object;)Gjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;L
 sort(Ljava/util/Comparator;),java.util.List#sort(Ljava/util/Comparator;)V»
 Lof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)kjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;_
-copyOf(Ljava/util/Collection;)=java.util.List#copyOf(Ljava/util/Collection;)Ljava/util/List;Î1
-java.util.Mapjava.lang.Object†
-1putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Qjava.util.Map#putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;¤
-@computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)`java.util.Map#computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;Ë
-”of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)±java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;k
-,remove(Ljava/lang/Object;Ljava/lang/Object;);java.util.Map#remove(Ljava/lang/Object;Ljava/lang/Object;)Z‚
-pof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;¸
-Jmerge(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)jjava.util.Map#merge(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;“
-¸of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Õjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;£
-€of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;)
-of()!java.util.Map#of()Ljava/util/Map;c
-(forEach(Ljava/util/function/BiConsumer;)7java.util.Map#forEach(Ljava/util/function/BiConsumer;)Vª
-CcomputeIfPresent(Ljava/lang/Object;Ljava/util/function/BiFunction;)cjava.util.Map#computeIfPresent(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;Û
-Üof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)ùjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;~
--replace(Ljava/lang/Object;Ljava/lang/Object;)Mjava.util.Map#replace(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;i
-+replaceAll(Ljava/util/function/BiFunction;):java.util.Map#replaceAll(Ljava/util/function/BiFunction;)V‘
-?replace(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Njava.util.Map#replace(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Zc
-!ofEntries([Ljava/util/Map$Entry;)>java.util.Map#ofEntries([Ljava/util/Map$Entry;)Ljava/util/Map;û
-ìof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)‰java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;q
-(of(Ljava/lang/Object;Ljava/lang/Object;)Ejava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;ë
-¤of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ájava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;˜
-:compute(Ljava/lang/Object;Ljava/util/function/BiFunction;)Zjava.util.Map#compute(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;O
-copyOf(Ljava/util/Map;)4java.util.Map#copyOf(Ljava/util/Map;)Ljava/util/Map;³
-Èof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)åjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;¹
-Lof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)ijava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;ˆ
-2getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Rjava.util.Map#getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;}
-+entry(Ljava/lang/Object;Ljava/lang/Object;)Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;Ç
-java.util.Map$Entryjava.lang.Objectz
-&comparingByKey(Ljava/util/Comparator;)Pjava.util.Map$Entry#comparingByKey(Ljava/util/Comparator;)Ljava/util/Comparator;R
-comparingByValue()<java.util.Map$Entry#comparingByValue()Ljava/util/Comparator;N
-comparingByKey():java.util.Map$Entry#comparingByKey()Ljava/util/Comparator;~
-(comparingByValue(Ljava/util/Comparator;)Rjava.util.Map$Entry#comparingByValue(Ljava/util/Comparator;)Ljava/util/Comparator;L
+copyOf(Ljava/util/Collection;)=java.util.List#copyOf(Ljava/util/Collection;)Ljava/util/List;L
 java.lang.Recordjava.lang.Object&
 <init>()java.lang.Record#<init>()V–
 cs.ing.Pairjava.lang.RecordE
@@ -182,88 +151,61 @@ toString(),java.lang.Float#toString()Ljava/lang/String;'
 doubleValue()java.lang.Float#doubleValue()D/
 isInfinite(F)java.lang.Float#isInfinite(F)Z+
 isFinite(F)java.lang.Float#isFinite(F)Z<
-toString(F)-java.lang.Float#toString(F)Ljava/lang/String;(
-java.lang.Appendablejava.lang.Object+
-java.lang.AutoCloseablejava.lang.Object>
-java.io.Closeablejava.lang.Objectjava.lang.AutoCloseable%
-java.io.Flushablejava.lang.Objectƒ
-java.io.OutputStreamjava.io.Closeablejava.lang.Objectjava.io.FlushableS
-nullOutputStream()=java.io.OutputStream#nullOutputStream()Ljava/io/OutputStream;,
-	write([B)java.io.OutputStream#write([B)V*
-<init>()java.io.OutputStream#<init>()V(
-flush()java.io.OutputStream#flush()V0
-write([BII)!java.io.OutputStream#write([BII)V(
-close()java.io.OutputStream#close()VŽ
-java.io.FilterOutputStreamjava.io.OutputStream2
-	write([B)%java.io.FilterOutputStream#write([B)V\
-<init>(Ljava/io/OutputStream;):java.io.FilterOutputStream#<init>(Ljava/io/OutputStream;)V.
-flush()#java.io.FilterOutputStream#flush()V0
-write(I)$java.io.FilterOutputStream#write(I)V6
-write([BII)'java.io.FilterOutputStream#write([BII)V.
-close()#java.io.FilterOutputStream#close()Vë!
-java.io.PrintStreamjava.lang.Appendablejava.io.Closeablejava.io.FilterOutputStream+
-	write([C)java.io.PrintStream#write([C)V)
-print(J)java.io.PrintStream#print(J)V-
+toString(F)-java.lang.Float#toString(F)Ljava/lang/String;Î1
+java.util.Mapjava.lang.Object†
+1putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Qjava.util.Map#putIfAbsent(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;¤
+@computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)`java.util.Map#computeIfAbsent(Ljava/lang/Object;Ljava/util/function/Function;)Ljava/lang/Object;Ë
+”of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)±java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;k
+,remove(Ljava/lang/Object;Ljava/lang/Object;);java.util.Map#remove(Ljava/lang/Object;Ljava/lang/Object;)Z‚
+pof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;¸
+Jmerge(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)jjava.util.Map#merge(Ljava/lang/Object;Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;“
+¸of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Õjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;£
+€of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;)
+of()!java.util.Map#of()Ljava/util/Map;c
+(forEach(Ljava/util/function/BiConsumer;)7java.util.Map#forEach(Ljava/util/function/BiConsumer;)Vª
+CcomputeIfPresent(Ljava/lang/Object;Ljava/util/function/BiFunction;)cjava.util.Map#computeIfPresent(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;Û
+Üof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)ùjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;~
+-replace(Ljava/lang/Object;Ljava/lang/Object;)Mjava.util.Map#replace(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;i
++replaceAll(Ljava/util/function/BiFunction;):java.util.Map#replaceAll(Ljava/util/function/BiFunction;)V‘
+?replace(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Njava.util.Map#replace(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Zc
+!ofEntries([Ljava/util/Map$Entry;)>java.util.Map#ofEntries([Ljava/util/Map$Entry;)Ljava/util/Map;û
+ìof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)‰java.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;q
+(of(Ljava/lang/Object;Ljava/lang/Object;)Ejava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;ë
+¤of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ájava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;˜
+:compute(Ljava/lang/Object;Ljava/util/function/BiFunction;)Zjava.util.Map#compute(Ljava/lang/Object;Ljava/util/function/BiFunction;)Ljava/lang/Object;O
+copyOf(Ljava/util/Map;)4java.util.Map#copyOf(Ljava/util/Map;)Ljava/util/Map;³
+Èof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)åjava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;¹
+Lof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)ijava.util.Map#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map;ˆ
+2getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Rjava.util.Map#getOrDefault(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;}
++entry(Ljava/lang/Object;Ljava/lang/Object;)Njava.util.Map#entry(Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/Map$Entry;Ç
+java.util.Map$Entryjava.lang.Objectz
+&comparingByKey(Ljava/util/Comparator;)Pjava.util.Map$Entry#comparingByKey(Ljava/util/Comparator;)Ljava/util/Comparator;R
+comparingByValue()<java.util.Map$Entry#comparingByValue()Ljava/util/Comparator;N
+comparingByKey():java.util.Map$Entry#comparingByKey()Ljava/util/Comparator;~
+(comparingByValue(Ljava/util/Comparator;)Rjava.util.Map$Entry#comparingByValue(Ljava/util/Comparator;)Ljava/util/Comparator;„
 
-println(J)java.io.PrintStream#println(J)V)
-print(F)java.io.PrintStream#print(F)V/
-writeln([C) java.io.PrintStream#writeln([C)V-
+java.lang.Booleanjava.lang.constant.Constablejava.lang.Comparablejava.lang.Objectjava.io.Serializable_
+valueOf(Ljava/lang/String;)@java.lang.Boolean#valueOf(Ljava/lang/String;)Ljava/lang/Boolean;W
+ parseBoolean(Ljava/lang/String;)3java.lang.Boolean#parseBoolean(Ljava/lang/String;)ZK
+equals(Ljava/lang/Object;)-java.lang.Boolean#equals(Ljava/lang/Object;)ZP
+describeConstable()9java.lang.Boolean#describeConstable()Ljava/util/Optional;3
+booleanValue()!java.lang.Boolean#booleanValue()Z<
 
-println(F)java.io.PrintStream#println(F)V/
-write([BII) java.io.PrintStream#write([BII)V
-4<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)Ijava.io.PrintStream#<init>(Ljava/lang/String;Ljava/nio/charset/Charset;)V)
-print(Z)java.io.PrintStream#print(Z)V1
-clearError()!java.io.PrintStream#clearError()V-
+toString().java.lang.Boolean#toString()Ljava/lang/String;>
+toString(Z)/java.lang.Boolean#toString(Z)Ljava/lang/String;=
 
-println(Z)java.io.PrintStream#println(Z)Vi
-(<init>(Ljava/io/File;Ljava/lang/String;)=java.io.PrintStream#<init>(Ljava/io/File;Ljava/lang/String;)V)
-write(I)java.io.PrintStream#write(I)VO
-println(Ljava/lang/Object;)0java.io.PrintStream#println(Ljava/lang/Object;)VK
-print(Ljava/lang/String;).java.io.PrintStream#print(Ljava/lang/String;)V’
-4requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Zjava.io.PrintStream#requireNonNull(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;)
-print(I)java.io.PrintStream#print(I)V-
+valueOf(Z)/java.lang.Boolean#valueOf(Z)Ljava/lang/Boolean;1
+logicalOr(ZZ) java.lang.Boolean#logicalOr(ZZ)Z+
 
-println(I)java.io.PrintStream#println(I)V'
-flush()java.io.PrintStream#flush()V«
-?format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#format(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;m
- append(Ljava/lang/CharSequence;)Ijava.io.PrintStream#append(Ljava/lang/CharSequence;)Ljava/io/PrintStream;l
-toCharset(Ljava/lang/String;)Kjava.io.PrintStream#toCharset(Ljava/lang/String;)Ljava/nio/charset/Charset;W
-<init>(ZLjava/io/OutputStream;)4java.io.PrintStream#<init>(ZLjava/io/OutputStream;)V+
-	print([C)java.io.PrintStream#print([C)Vq
-"append(Ljava/lang/CharSequence;II)Kjava.io.PrintStream#append(Ljava/lang/CharSequence;II)Ljava/io/PrintStream;)
-print(D)java.io.PrintStream#print(D)Vq
-,<init>(Ljava/lang/String;Ljava/lang/String;)Ajava.io.PrintStream#<init>(Ljava/lang/String;Ljava/lang/String;)V-
-
-println(D)java.io.PrintStream#println(D)VO
-println(Ljava/lang/String;)0java.io.PrintStream#println(Ljava/lang/String;)VW
-<init>(Ljava/io/OutputStream;Z)4java.io.PrintStream#<init>(Ljava/io/OutputStream;Z)VE
-<init>(Ljava/io/File;)+java.io.PrintStream#<init>(Ljava/io/File;)Vy
-0<init>(Ljava/io/File;Ljava/nio/charset/Charset;)Ejava.io.PrintStream#<init>(Ljava/io/File;Ljava/nio/charset/Charset;)V1
-ensureOpen()!java.io.PrintStream#ensureOpen()V‹
-9<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)Njava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/nio/charset/Charset;)V«
-?printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)hjava.io.PrintStream#printf(Ljava/util/Locale;Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;-
-
-setError()java.io.PrintStream#setError()V‡
--printf(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#printf(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;?
-	append(C)2java.io.PrintStream#append(C)Ljava/io/PrintStream;M
-<init>(Ljava/lang/String;)/java.io.PrintStream#<init>(Ljava/lang/String;)V‡
--format(Ljava/lang/String;[Ljava/lang/Object;)Vjava.io.PrintStream#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;+
-	newLine()java.io.PrintStream#newLine()V)
-print(C)java.io.PrintStream#print(C)V1
-checkError()!java.io.PrintStream#checkError()Z+
-	println()java.io.PrintStream#println()V'
-close()java.io.PrintStream#close()V+
-	write([B)java.io.PrintStream#write([B)VO
-writeln(Ljava/lang/String;)0java.io.PrintStream#writeln(Ljava/lang/String;)V-
-
-println(C)java.io.PrintStream#println(C)VK
-write(Ljava/lang/String;).java.io.PrintStream#write(Ljava/lang/String;)VK
-print(Ljava/lang/Object;).java.io.PrintStream#print(Ljava/lang/Object;)V{
-1<init>(Ljava/io/OutputStream;ZLjava/lang/String;)Fjava.io.PrintStream#<init>(Ljava/io/OutputStream;ZLjava/lang/String;)V5
-writeBytes([B)#java.io.PrintStream#writeBytes([B)VU
-<init>(Ljava/io/OutputStream;)3java.io.PrintStream#<init>(Ljava/io/OutputStream;)V/
-println([C) java.io.PrintStream#println([C)V‹
-9<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)Njava.io.PrintStream#<init>(ZLjava/nio/charset/Charset;Ljava/io/OutputStream;)V‡
+hashCode()java.lang.Boolean#hashCode()I3
+logicalXor(ZZ)!java.lang.Boolean#logicalXor(ZZ)Z-
+compare(ZZ)java.lang.Boolean#compare(ZZ)I-
+hashCode(Z)java.lang.Boolean#hashCode(Z)I3
+logicalAnd(ZZ)!java.lang.Boolean#logicalAnd(ZZ)ZS
+compareTo(Ljava/lang/Boolean;)1java.lang.Boolean#compareTo(Ljava/lang/Boolean;)IK
+<init>(Ljava/lang/String;)-java.lang.Boolean#<init>(Ljava/lang/String;)V)
+	<init>(Z)java.lang.Boolean#<init>(Z)VS
+getBoolean(Ljava/lang/String;)1java.lang.Boolean#getBoolean(Ljava/lang/String;)Z‡
 cs.ing.Mainjava.lang.Object!
 <init>()cs.ing.Main#<init>()VC
 main([Ljava/lang/String;)&cs.ing.Main#main([Ljava/lang/String;)V¾^

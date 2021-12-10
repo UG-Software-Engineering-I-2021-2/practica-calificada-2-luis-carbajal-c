@@ -1,172 +1,99 @@
 
 4cs.ing.Principal#calculateGrades(Ljava/util/List;Z)F|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java   ( "26*¸
-24|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java$S $(cÈ
-Å
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java   ( "16*Ã
+13|
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java( ((æã
 |
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java$S $(c
-%1java.util.Map"__id***(
-cs.ing.Principal"
-allYearsTeachersâß
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java( ((/
+%2java.lang.Integer"%cs.ing.Pair#first()Ljava/lang/Object;*
+
+	examGradecs.ing.Pair2first()æã
 |
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java$S $(n
-%2java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*
-
-%1java.util.Map2
-entrySet()*
-15*›
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java(2 ((D
+%3java.lang.Float"&cs.ing.Pair#second()Ljava/lang/Object;*
+
+	examGradecs.ing.Pair2second()æã
+|
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java)# )(4
+%4java.lang.Integer"%cs.ing.Pair#first()Ljava/lang/Object;*
+
+	examGradecs.ing.Pair2first()*
+12*Š
+2|
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java7 7("†
+|
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java7 7(
+""*Š
+3|
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java5 5("†
+|
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java5 5(
+""*á
 15|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java$ $(P¶
-³
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java"1 "(KÖ
+Ó
 |
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java$ $(P%
-yearlyTeachersjava.util.Map$Entry"__id*
-""Ó
-Ð
-|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java$ $(P%
-yearlyTeachersjava.util.Map$Entry"
-__arrayGet*
-
-%2java.util.Set*
-""*
-11
-23*ç
-26|
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java"1 "(M
+%1boolean".cs.ing.Principal#checkIncreaseOneExtraPoint()Z*
+cs.ing.Principal*
+12*ç
+16|
 rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java! !(ÙÖ
 |
 rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java! !($
 %0boolean"java.util.List#isEmpty()Z*!
 
 examsStudentsjava.util.List2	isEmpty()*
-24
-1*„
-17|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java' '(7§
-¤
-|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java' '(7
-teachercs.ing.Pair"__id*
-""Ë
-È
-|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java' '(7
-teachercs.ing.Pair"
-__arrayGet*
-
-teachersjava.util.List*
-""*
 15
-20*Š
-1|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.javaH H("†
-|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.javaH H(
-""*Š
-2|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.javaE E("†
-|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.javaE E(
-""*Š
-3|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.javaC C("†
-|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.javaC C(
-""*Š
+1*Š
 5|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java@ @("†
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java2 2($"†
 |
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java@ @(
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java2 2(%
 ""*Š
 6|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java= =(("†
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java0 0("†
 |
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java= =()
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java0 0(
 ""*Ú
-7|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java; ;($Í
+8|
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java. .( Í
 Ê
 |
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java; ;(<
-%9float"java.lang.Float#min(FF)F*"
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java. .(8
+%5float"java.lang.Float#min(FF)F*"
 java.lang.Float*
 ""*
 """†
 |
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java; ;(=
-""*ñ
-20|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java( ((#æã
-|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java( ((,
-%5java.lang.Boolean"&cs.ing.Pair#second()Ljava/lang/Object;*
-
-teachercs.ing.Pair2second()*
-17*Ç
-22|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java&< &(Jþû
-|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java&< &(U
-%4java.util.List"0java.util.Map$Entry#getValue()Ljava/lang/Object;*'
-%
-yearlyTeachersjava.util.Map$Entry2
-getValue()»
-¸
-|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java& &(V
-teachersjava.util.List"__id*
-
-%4java.util.List*
-17*˜
-11|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java4 4(/©
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java. .(9
+""*˜
+12|
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java' '(/©
 ¦
 |
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java4 4(/
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java' '(/
 	examGradecs.ing.Pair"__id*
 ""Ò
 Ï
 |
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java4 4(/
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java' '(/
 	examGradecs.ing.Pair"
 __arrayGet*!
 
 examsStudentsjava.util.List*
 ""*
+13
 2
 3
 5
 6
-7
-12*Ã
-12|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java5 5(æã
+8*Š
+1|
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java: :("†
 |
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java5 5(/
-%6java.lang.Integer"%cs.ing.Pair#first()Ljava/lang/Object;*
-
-	examGradecs.ing.Pair2first()æã
-|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java52 5(D
-%7java.lang.Float"&cs.ing.Pair#second()Ljava/lang/Object;*
-
-	examGradecs.ing.Pair2second()æã
-|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java6# 6(4
-%8java.lang.Integer"%cs.ing.Pair#first()Ljava/lang/Object;*
-
-	examGradecs.ing.Pair2first()*
-11*Œ
-23|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java% %(%ýú
-|
-rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java%) %(@
-%3java.lang.Integer".java.util.Map$Entry#getKey()Ljava/lang/Object;*'
-%
-yearlyTeachersjava.util.Map$Entry2getKey()*
-15
-22:
+rC:/Users/ASUS/UTEC/2021-2/IS/Examen/practica-calificada-2-luis-carbajal-c/code/src/main/java/cs/ing/Principal.java: :(
+"":
 examsStudentsjava.util.List:
 ""B
 cs.ing.Principal

@@ -3,8 +3,10 @@ package cs.ing;
 import java.util.AbstractMap;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
 public class Principal {
+    static final Logger logger = Logger.getLogger(Principal.class.getName());
     private final Map<Integer, List<Pair<Teacher, Boolean>>> allYearsTeachers = Map.ofEntries(
             new AbstractMap.SimpleImmutableEntry<>(
                     2020,
@@ -74,5 +76,17 @@ public class Principal {
             }
         }
         return hasToIncreaseOneExtraPoint;
+    }
+
+    // print all teacher who give one extra point
+    public void printTeachersOneExtraPoint() {
+        for (Map.Entry<Integer, List<Pair<Teacher, Boolean>>> yearlyTeachers : allYearsTeachers.entrySet()) {
+            List<Pair<Teacher, Boolean>> teachers = yearlyTeachers.getValue();
+            for (Pair<Teacher, Boolean> teacher : teachers) {
+                if (Boolean.TRUE.equals(teacher.second())) {
+                    logger.info(teacher.first().getNombre());
+                }
+            }
+        }
     }
 }

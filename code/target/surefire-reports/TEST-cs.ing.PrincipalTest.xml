@@ -59,17 +59,17 @@
     <property name="sun.stdout.encoding" value="cp850"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="cs.ing.PrincipalTest" name="calculate_average_grade_given_different_exam_grades_and_attending_the_minimum_classes" time="0.052"/>
-  <testcase classname="cs.ing.PrincipalTest" name="calculate_same_grade_given_one_single_exam_and_attending_the_minimum_classes" time="0.002"/>
+  <testcase classname="cs.ing.PrincipalTest" name="calculate_average_grade_given_different_exam_grades_and_attending_the_minimum_classes" time="0.051"/>
+  <testcase classname="cs.ing.PrincipalTest" name="calculate_same_grade_given_one_single_exam_and_attending_the_minimum_classes" time="0.004"/>
   <testcase classname="cs.ing.PrincipalTest" name="fail_given_different_exam_grades_but_not_attending_the_minimum_classes" time="0"/>
-  <testcase classname="cs.ing.PrincipalTest" name="fail_given_odd_exam_grades_but_attending_the_minimum_classes" time="0.003"/>
+  <testcase classname="cs.ing.PrincipalTest" name="fail_given_odd_exam_grades_but_attending_the_minimum_classes" time="0"/>
   <testcase classname="cs.ing.PrincipalTest" name="fail_given_one_single_exam_but_not_attending_the_minimum_classes" time="0"/>
   <testcase classname="cs.ing.PrincipalTest" name="fail_given_there_are_no_exams" time="0"/>
   <testcase classname="cs.ing.PrincipalTest" name="fail_when_there_are_no_exams_and_has_not_attended_the_minimum_classes" time="0"/>
-  <testcase classname="cs.ing.PrincipalTest" name="increase_one_extra_point_if_there_is_any_benevolent_teacher_in_the_year_to_calculate_grades" time="0.001"/>
+  <testcase classname="cs.ing.PrincipalTest" name="increase_one_extra_point_if_there_is_any_benevolent_teacher_in_the_year_to_calculate_grades" time="0"/>
   <testcase classname="cs.ing.PrincipalTest" name="maintain_10_as_the_maximum_grade_even_if_increasing_one_extra_point" time="0"/>
-  <testcase classname="cs.ing.PrincipalTest" name="not_increase_one_extra_point_if_there_is_not_any_benevolent_teacher_in_the_year_to_calculate_grades" time="0"/>
-  <testcase classname="cs.ing.PrincipalTest" name="round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes" time="0.001"/>
+  <testcase classname="cs.ing.PrincipalTest" name="not_increase_one_extra_point_if_there_is_not_any_benevolent_teacher_in_the_year_to_calculate_grades" time="0.004"/>
+  <testcase classname="cs.ing.PrincipalTest" name="round_up_to_2_decimals_given_odd_exam_grades_and_attending_the_minimum_classes" time="0"/>
   <testcase classname="cs.ing.PrincipalTest" name="validate_all_exam_grades_weight_below_100" time="0"/>
   <testcase classname="cs.ing.PrincipalTest" name="validate_all_exam_grades_weight_over_100" time="0"/>
 </testsuite>
