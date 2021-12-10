@@ -78,7 +78,7 @@ public class Principal {
         return hasToIncreaseOneExtraPoint;
     }
 
-    // print all teacher who give one extra point
+    // print all teachers who give one extra point
     public void printTeachersOneExtraPoint() {
         for (Map.Entry<Integer, List<Pair<Teacher, Boolean>>> yearlyTeachers : allYearsTeachers.entrySet()) {
             List<Pair<Teacher, Boolean>> teachers = yearlyTeachers.getValue();
@@ -88,5 +88,10 @@ public class Principal {
                 }
             }
         }
+    }
+
+    // print all students who get one extra point
+    public void printStudentsOneExtraPoint() {
+        // TODO
     }
 }

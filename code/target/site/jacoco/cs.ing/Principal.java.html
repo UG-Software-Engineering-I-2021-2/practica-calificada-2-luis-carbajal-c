@@ -3,77 +3,96 @@
 import java.util.AbstractMap;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
 public class Principal {
-<span class="fc" id="L8">    private final Map&lt;Integer, List&lt;Pair&lt;Teacher, Boolean&gt;&gt;&gt; allYearsTeachers = Map.ofEntries(</span>
+<span class="fc" id="L9">    static final Logger logger = Logger.getLogger(Principal.class.getName());</span>
+<span class="fc" id="L10">    private final Map&lt;Integer, List&lt;Pair&lt;Teacher, Boolean&gt;&gt;&gt; allYearsTeachers = Map.ofEntries(</span>
             new AbstractMap.SimpleImmutableEntry&lt;&gt;(
-<span class="fc" id="L10">                    2020,</span>
-<span class="fc" id="L11">                    List.of(</span>
-<span class="fc" id="L12">                            new Pair&lt;&gt;( new Teacher(1,&quot;Josefina&quot;), true),</span>
-<span class="fc" id="L13">                            new Pair&lt;&gt;( new Teacher(1,&quot;Edonisio&quot;), true),</span>
-<span class="fc" id="L14">                            new Pair&lt;&gt;( new Teacher(1,&quot;Edufasio&quot;), false)</span>
+<span class="fc" id="L12">                    2020,</span>
+<span class="fc" id="L13">                    List.of(</span>
+<span class="fc" id="L14">                            new Pair&lt;&gt;( new Teacher(1,&quot;Josefina&quot;), true),</span>
+<span class="fc" id="L15">                            new Pair&lt;&gt;( new Teacher(1,&quot;Edonisio&quot;), true),</span>
+<span class="fc" id="L16">                            new Pair&lt;&gt;( new Teacher(1,&quot;Edufasio&quot;), false)</span>
                     )
             ),
             new AbstractMap.SimpleImmutableEntry&lt;&gt;(
-<span class="fc" id="L18">                    2019,</span>
-<span class="fc" id="L19">                    List.of(</span>
-<span class="fc" id="L20">                            new Pair&lt;&gt;( new Teacher(1,&quot;Eduarda&quot;), false),</span>
-<span class="fc" id="L21">                            new Pair&lt;&gt;( new Teacher(1,&quot;Abelardo&quot;), false),</span>
-<span class="fc" id="L22">                            new Pair&lt;&gt;( new Teacher(1,&quot;Francisca&quot;), false)</span>
+<span class="fc" id="L20">                    2019,</span>
+<span class="fc" id="L21">                    List.of(</span>
+<span class="fc" id="L22">                            new Pair&lt;&gt;( new Teacher(1,&quot;Eduarda&quot;), false),</span>
+<span class="fc" id="L23">                            new Pair&lt;&gt;( new Teacher(1,&quot;Abelardo&quot;), false),</span>
+<span class="fc" id="L24">                            new Pair&lt;&gt;( new Teacher(1,&quot;Francisca&quot;), false)</span>
                     )
             )
     );
     private final int yearToCalculate;
 
-<span class="fc" id="L28">    public Principal(int yearToCalculate) {</span>
-<span class="fc" id="L29">        this.yearToCalculate = yearToCalculate;</span>
-<span class="fc" id="L30">    }</span>
+<span class="fc" id="L30">    public Principal(int yearToCalculate) {</span>
+<span class="fc" id="L31">        this.yearToCalculate = yearToCalculate;</span>
+<span class="fc" id="L32">    }</span>
 
     public float calculateGrades(final List&lt;Pair&lt;Integer, Float&gt;&gt; examsStudents, final boolean hasReachedMinimumClasses) {
-<span class="fc bfc" id="L33" title="All 2 branches covered.">        if (!examsStudents.isEmpty()) {</span>
-<span class="fc" id="L34">            boolean hasToIncreaseOneExtraPoint = checkIncreaseOneExtraPoint();</span>
+<span class="fc bfc" id="L35" title="All 2 branches covered.">        if (!examsStudents.isEmpty()) {</span>
+<span class="fc" id="L36">            boolean hasToIncreaseOneExtraPoint = checkIncreaseOneExtraPoint();</span>
 
-<span class="fc" id="L36">            float gradesSum       = 0f;</span>
-<span class="fc" id="L37">            int   gradesWeightSum = 0;</span>
+<span class="fc" id="L38">            float gradesSum       = 0f;</span>
+<span class="fc" id="L39">            int   gradesWeightSum = 0;</span>
 
-<span class="fc bfc" id="L39" title="All 2 branches covered.">            for (Pair&lt;Integer, Float&gt; examGrade : examsStudents) {</span>
-<span class="fc" id="L40">                gradesSum += (examGrade.first() * examGrade.second() / 100);</span>
-<span class="fc" id="L41">                gradesWeightSum += examGrade.first();</span>
-<span class="fc" id="L42">            }</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">            for (Pair&lt;Integer, Float&gt; examGrade : examsStudents) {</span>
+<span class="fc" id="L42">                gradesSum += (examGrade.first() * examGrade.second() / 100);</span>
+<span class="fc" id="L43">                gradesWeightSum += examGrade.first();</span>
+<span class="fc" id="L44">            }</span>
 
-<span class="fc bfc" id="L44" title="All 2 branches covered.">            if (gradesWeightSum == 100) {</span>
-<span class="fc bfc" id="L45" title="All 4 branches covered.">                if (hasReachedMinimumClasses &amp;&amp; hasToIncreaseOneExtraPoint) {</span>
-<span class="fc" id="L46">                    return Float.min(10f, gradesSum + 1);</span>
-<span class="fc bfc" id="L47" title="All 2 branches covered.">                } else if (!hasReachedMinimumClasses) {</span>
-<span class="fc" id="L48">                    return 0f;</span>
+<span class="fc bfc" id="L46" title="All 2 branches covered.">            if (gradesWeightSum == 100) {</span>
+<span class="fc bfc" id="L47" title="All 4 branches covered.">                if (hasReachedMinimumClasses &amp;&amp; hasToIncreaseOneExtraPoint) {</span>
+<span class="fc" id="L48">                    return Float.min(10f, gradesSum + 1);</span>
+<span class="fc bfc" id="L49" title="All 2 branches covered.">                } else if (!hasReachedMinimumClasses) {</span>
+<span class="fc" id="L50">                    return 0f;</span>
                 } else {
-<span class="fc" id="L50">                    return gradesSum;</span>
+<span class="fc" id="L52">                    return gradesSum;</span>
                 }
-<span class="fc bfc" id="L52" title="All 2 branches covered.">            } else if (gradesWeightSum &gt; 100) {</span>
-<span class="fc" id="L53">                return -1f;</span>
+<span class="fc bfc" id="L54" title="All 2 branches covered.">            } else if (gradesWeightSum &gt; 100) {</span>
+<span class="fc" id="L55">                return -1f;</span>
             } else {
-<span class="fc" id="L55">                return -2f;</span>
+<span class="fc" id="L57">                return -2f;</span>
             }
         } else {
-<span class="fc" id="L58">            return 0f;</span>
+<span class="fc" id="L60">            return 0f;</span>
         }
     }
 
     private boolean checkIncreaseOneExtraPoint() {
-<span class="fc" id="L63">        boolean hasToIncreaseOneExtraPoint = false;</span>
+<span class="fc" id="L65">        boolean hasToIncreaseOneExtraPoint = false;</span>
 
-<span class="fc bfc" id="L65" title="All 2 branches covered.">        for (Map.Entry&lt;Integer, List&lt;Pair&lt;Teacher, Boolean&gt;&gt;&gt; yearlyTeachers : allYearsTeachers.entrySet()) {</span>
-<span class="fc bfc" id="L66" title="All 2 branches covered.">            if (yearToCalculate == yearlyTeachers.getKey()) {</span>
-<span class="fc" id="L67">                List&lt;Pair&lt;Teacher, Boolean&gt;&gt; teachers = yearlyTeachers.getValue();</span>
-<span class="fc bfc" id="L68" title="All 2 branches covered.">                for (Pair&lt;Teacher, Boolean&gt; teacher : teachers) {</span>
-<span class="fc bfc" id="L69" title="All 2 branches covered.">                    if (Boolean.FALSE.equals(teacher.second())) {</span>
-<span class="fc" id="L70">                        continue;</span>
+<span class="fc bfc" id="L67" title="All 2 branches covered.">        for (Map.Entry&lt;Integer, List&lt;Pair&lt;Teacher, Boolean&gt;&gt;&gt; yearlyTeachers : allYearsTeachers.entrySet()) {</span>
+<span class="fc bfc" id="L68" title="All 2 branches covered.">            if (yearToCalculate == yearlyTeachers.getKey()) {</span>
+<span class="fc" id="L69">                List&lt;Pair&lt;Teacher, Boolean&gt;&gt; teachers = yearlyTeachers.getValue();</span>
+<span class="fc bfc" id="L70" title="All 2 branches covered.">                for (Pair&lt;Teacher, Boolean&gt; teacher : teachers) {</span>
+<span class="fc bfc" id="L71" title="All 2 branches covered.">                    if (Boolean.FALSE.equals(teacher.second())) {</span>
+<span class="fc" id="L72">                        continue;</span>
                     }
-<span class="fc" id="L72">                    hasToIncreaseOneExtraPoint = true;</span>
-<span class="fc" id="L73">                }</span>
+<span class="fc" id="L74">                    hasToIncreaseOneExtraPoint = true;</span>
+<span class="fc" id="L75">                }</span>
             }
-<span class="fc" id="L75">        }</span>
-<span class="fc" id="L76">        return hasToIncreaseOneExtraPoint;</span>
+<span class="fc" id="L77">        }</span>
+<span class="fc" id="L78">        return hasToIncreaseOneExtraPoint;</span>
     }
+
+    // print all teachers who give one extra point
+    public void printTeachersOneExtraPoint() {
+<span class="fc bfc" id="L83" title="All 2 branches covered.">        for (Map.Entry&lt;Integer, List&lt;Pair&lt;Teacher, Boolean&gt;&gt;&gt; yearlyTeachers : allYearsTeachers.entrySet()) {</span>
+<span class="fc" id="L84">            List&lt;Pair&lt;Teacher, Boolean&gt;&gt; teachers = yearlyTeachers.getValue();</span>
+<span class="fc bfc" id="L85" title="All 2 branches covered.">            for (Pair&lt;Teacher, Boolean&gt; teacher : teachers) {</span>
+<span class="fc bfc" id="L86" title="All 2 branches covered.">                if (Boolean.TRUE.equals(teacher.second())) {</span>
+<span class="fc" id="L87">                    logger.info(teacher.first().getNombre());</span>
+                }
+<span class="fc" id="L89">            }</span>
+<span class="fc" id="L90">        }</span>
+<span class="fc" id="L91">    }</span>
+
+    // print all students who get one extra point
+    public void printStudentsOneExtraPoint() {
+        // TODO
+<span class="nc" id="L96">    }</span>
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.6.202009150832</span></div></body></html>

@@ -15,9 +15,10 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 notifyAll()java.lang.Object#notifyAll()V"
 wait()java.lang.Object#wait()V*
 
-hashCode()java.lang.Object#hashCode()I’
+hashCode()java.lang.Object#hashCode()IÏ
 cs.ing.Studentjava.lang.Object"
-grado()cs.ing.Student#grado()IJ
+grado()cs.ing.Student#grado()I;
+getNombre(),cs.ing.Student#getNombre()Ljava/lang/String;J
 <init>(ILjava/lang/String;)+cs.ing.Student#<init>(ILjava/lang/String;)V(
 java.io.Serializablejava.lang.Object›
 java.lang.Throwablejava.lang.Objectjava.io.Serializable;
@@ -62,14 +63,17 @@ getCause()3java.lang.Throwable#getCause()Ljava/lang/Throwable;e
 1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Mjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VZ
 <init>(Ljava/lang/Throwable;)9java.lang.RuntimeException#<init>(Ljava/lang/Throwable;)V¸
 /cs.ing.custom_exceptions.CustomRuntimeExceptionjava.lang.RuntimeExceptioni
-<init>(Ljava/lang/String;)Kcs.ing.custom_exceptions.CustomRuntimeException#<init>(Ljava/lang/String;)V”
-cs.ing.Teacherjava.lang.ObjectJ
+<init>(Ljava/lang/String;)Kcs.ing.custom_exceptions.CustomRuntimeException#<init>(Ljava/lang/String;)VÑ
+cs.ing.Teacherjava.lang.Object;
+getNombre(),cs.ing.Teacher#getNombre()Ljava/lang/String;J
 <init>(ILjava/lang/String;)+cs.ing.Teacher#<init>(ILjava/lang/String;)V$
-sueldo()cs.ing.Teacher#sueldo()Iú
+sueldo()cs.ing.Teacher#sueldo()Iš
 cs.ing.Principaljava.lang.ObjectN
-checkIncreaseOneExtraPoint().cs.ing.Principal#checkIncreaseOneExtraPoint()Z(
+checkIncreaseOneExtraPoint().cs.ing.Principal#checkIncreaseOneExtraPoint()ZN
+printTeachersOneExtraPoint().cs.ing.Principal#printTeachersOneExtraPoint()V(
 	<init>(I)cs.ing.Principal#<init>(I)VZ
-"calculateGrades(Ljava/util/List;Z)4cs.ing.Principal#calculateGrades(Ljava/util/List;Z)FÖ
+"calculateGrades(Ljava/util/List;Z)4cs.ing.Principal#calculateGrades(Ljava/util/List;Z)FN
+printStudentsOneExtraPoint().cs.ing.Principal#printStudentsOneExtraPoint()VÖ
 java.lang.Iterablejava.lang.Objectd
 &forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
 spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;Œ
@@ -205,10 +209,7 @@ hashCode()java.lang.Boolean#hashCode()I3
 compareTo(Ljava/lang/Boolean;)1java.lang.Boolean#compareTo(Ljava/lang/Boolean;)IK
 <init>(Ljava/lang/String;)-java.lang.Boolean#<init>(Ljava/lang/String;)V)
 	<init>(Z)java.lang.Boolean#<init>(Z)VS
-getBoolean(Ljava/lang/String;)1java.lang.Boolean#getBoolean(Ljava/lang/String;)Z‡
-cs.ing.Mainjava.lang.Object!
-<init>()cs.ing.Main#<init>()VC
-main([Ljava/lang/String;)&cs.ing.Main#main([Ljava/lang/String;)V¾^
+getBoolean(Ljava/lang/String;)1java.lang.Boolean#getBoolean(Ljava/lang/String;)Z¾^
 java.util.logging.Loggerjava.lang.ObjectF
 isLevelInitialized().java.util.logging.Logger#isLevelInitialized()Zd
 #fine(Ljava/util/function/Supplier;)=java.util.logging.Logger#fine(Ljava/util/function/Supplier;)V”
@@ -297,4 +298,7 @@ ulogp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Th
 @entering(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)Zjava.util.logging.Logger#entering(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Object;)VN
 info(Ljava/lang/String;)2java.util.logging.Logger#info(Ljava/lang/String;)Vx
 -exiting(Ljava/lang/String;Ljava/lang/String;)Gjava.util.logging.Logger#exiting(Ljava/lang/String;Ljava/lang/String;)V¨
-Elog(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)_java.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V
+Elog(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)_java.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V‡
+cs.ing.Mainjava.lang.Object!
+<init>()cs.ing.Main#<init>()VC
+main([Ljava/lang/String;)&cs.ing.Main#main([Ljava/lang/String;)V

@@ -23,4 +23,8 @@ public class Student {
             default -> throw new CustomRuntimeException("Empleado incorrecto");
         };
     }
+
+    public String getNombre() {
+        return nombre;
+    }
 }
