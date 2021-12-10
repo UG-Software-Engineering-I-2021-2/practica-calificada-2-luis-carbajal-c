@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 
 public class Principal {
-    final private Map<Integer, List<Pair<Teacher, Boolean>>> allYearsTeachers = Map.ofEntries(
+    private final Map<Integer, List<Pair<Teacher, Boolean>>> allYearsTeachers = Map.ofEntries(
             new AbstractMap.SimpleImmutableEntry<>(
                     2020,
                     List.of(
@@ -31,21 +31,8 @@ public class Principal {
 
     public float calculateGrades(final List<Pair<Integer, Float>> examsStudents, final boolean hasReachedMinimumClasses) {
         if (!examsStudents.isEmpty()) {
-            boolean hasToIncreaseOneExtraPoint = false;
+            boolean hasToIncreaseOneExtraPoint = checkIncreaseOneExtraPoint();
 
-            for (Map.Entry<Integer, List<Pair<Teacher, Boolean>>> yearlyTeachers : allYearsTeachers.entrySet()) {
-                if (!(yearToCalculate != yearlyTeachers.getKey())) {
-                    List<Pair<Teacher, Boolean>> teachers = yearlyTeachers.getValue();
-                    for (Pair<Teacher, Boolean> teacher : teachers) {
-                        if (teacher.second() != true) {
-                            continue;
-                        }
-                        hasToIncreaseOneExtraPoint = true;
-                    }
-                } else {
-                    continue;
-                }
-            }
             float gradesSum       = 0f;
             int   gradesWeightSum = 0;
 
@@ -53,15 +40,14 @@ public class Principal {
                 gradesSum += (examGrade.first() * examGrade.second() / 100);
                 gradesWeightSum += examGrade.first();
             }
+
             if (gradesWeightSum == 100) {
-                if (hasReachedMinimumClasses) {
-                    if (hasToIncreaseOneExtraPoint) {
-                        return Float.min(10f, gradesSum + 1);
-                    } else {
-                        return gradesSum;
-                    }
-                } else {
+                if (hasReachedMinimumClasses && hasToIncreaseOneExtraPoint) {
+                    return Float.min(10f, gradesSum + 1);
+                } else if (!hasReachedMinimumClasses) {
                     return 0f;
+                } else {
+                    return gradesSum;
                 }
             } else if (gradesWeightSum > 100) {
                 return -1f;
@@ -73,7 +59,20 @@ public class Principal {
         }
     }
 
-    public static void main(String[] args) {
-        System.out.println("Hola");
+    private boolean checkIncreaseOneExtraPoint() {
+        boolean hasToIncreaseOneExtraPoint = false;
+
+        for (Map.Entry<Integer, List<Pair<Teacher, Boolean>>> yearlyTeachers : allYearsTeachers.entrySet()) {
+            if (yearToCalculate == yearlyTeachers.getKey()) {
+                List<Pair<Teacher, Boolean>> teachers = yearlyTeachers.getValue();
+                for (Pair<Teacher, Boolean> teacher : teachers) {
+                    if (Boolean.FALSE.equals(teacher.second())) {
+                        continue;
+                    }
+                    hasToIncreaseOneExtraPoint = true;
+                }
+            }
+        }
+        return hasToIncreaseOneExtraPoint;
     }
 }
