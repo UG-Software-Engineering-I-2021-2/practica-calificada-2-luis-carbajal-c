@@ -1,1 +1,2 @@
-# practica-calificada-2
+# Ingeniería de Software I - Práctica Calificada 2
+Alumno: Luis Renato Carbajal Cortez
